@@ -141,14 +141,14 @@ python resplit.py --dataset_id <dataset_id> --input_path <data_dir> --output_dir
 ## Citation
 Please cite our paper if you use any tool or datasets provided in this repository:
 
-´´´
+````
 @article{jiang2022knowledge,
   title={Knowledge Graph Question Answering Datasets and Their Generalizability: Are They Enough for Future Research?},
   author={Jiang, Longquan and Usbeck, Ricardo},
   journal={arXiv preprint arXiv:2205.06573},
   year={2022}
 }
-´´´
+````
 
 ## License
 This work is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE.txt) file for details.
