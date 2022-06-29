@@ -138,7 +138,17 @@ python preprocess.py --tasks <dataset_name> --data_dir <data_dir> --shuffle True
 python resplit.py --dataset_id <dataset_id> --input_path <data_dir> --output_dir <output_dir> --sampling_ratio_zero .4 --sampling_ratio_compo .1 --sampling_ratio_iid .1 --random_seed 42 --n_splits_compo 1 --n_splits_zero 1 --validation_size 0.0
 ```
 
+## Citation
+Please cite our paper if you use any tool or datasets provided in this repository:
 
+´´´
+@article{jiang2022knowledge,
+  title={Knowledge Graph Question Answering Datasets and Their Generalizability: Are They Enough for Future Research?},
+  author={Jiang, Longquan and Usbeck, Ricardo},
+  journal={arXiv preprint arXiv:2205.06573},
+  year={2022}
+}
+´´´
 
 ## License
 This work is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE.txt) file for details.
